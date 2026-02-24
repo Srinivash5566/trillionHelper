@@ -1,0 +1,708 @@
+
+### topic: "Number System"
+subcategory: "Divisibility Rules"
+source: "IndiaBix"
+when_to_use: "To quickly check divisibility of integers without full division."
+formula: |
+  - Divisible by 1 → Always true
+  - Divisible by 2 → Last digit ∈ {0,2,4,6,8}
+  - Divisible by 3 → Sum of digits divisible by 3
+  - Divisible by 4 → Last two digits divisible by 4
+  - Divisible by 5 → Last digit ∈ {0,5}
+  - Divisible by 6 → Divisible by 2 and 3
+  - Divisible by 7 → (Remaining number − 2×last digit) divisible by 7
+  - Divisible by 8 → Last three digits divisible by 8
+  - Divisible by 9 → Sum of digits divisible by 9
+  - Divisible by 10 → Last digit = 0
+  - Divisible by 11 → |(sum of odd place digits − sum of even place digits)| divisible by 11
+  - Divisible by 12 → Divisible by 3 and 4
+conditions_of_use: |
+  - Works for base-10 integers
+  - Number must be non-decimal
+category_tags:
+  - number-system
+  - divisibility
+  - shortcuts
+
+
+### topic: "Number System"
+subcategory: "LCM and HCF"
+source: "IndiaBix"
+when_to_use: "To find smallest or largest common factors or multiples."
+formula: |
+  - LCM × HCF = Product of two numbers
+  - HCF (prime factorization) → Lowest powers of common primes
+  - LCM (prime factorization) → Highest powers of all primes
+  - Euclidean Algorithm → HCF(a,b)=HCF(b,a mod b)
+  - LCM of fractions = LCM(numerators) / HCF(denominators)
+  - HCF of fractions = HCF(numerators) / LCM(denominators)
+conditions_of_use: |
+  - Integers or rational numbers only
+  - Prime factorization valid for positive integers
+category_tags:
+  - lcm
+  - hcf
+  - number-theory
+
+### topic: "Arithmetic"
+subcategory: "Simplification"
+source: "IndiaBix"
+when_to_use: "To simplify expressions quickly in exams."
+formula: |
+  - BODMAS → Brackets → Orders → Division → Multiplication → Addition → Subtraction
+  - (a+b)(a−b)=a²−b²
+  - (n ending in 5)² = (n−1)(n+1)+25
+  - √N ≈ √(nearest perfect square)
+conditions_of_use: |
+  - Order of operations must be strictly followed
+category_tags:
+  - simplification
+  - mental-math
+
+### topic: "Percentage"
+subcategory: "Basics"
+source: "IndiaBix"
+when_to_use: "To calculate increase, decrease, comparison, and ratios."
+formula: |
+  - x% = x/100
+  - Fraction → % = (x/y)×100
+  - New Value (Increase) = Old × (1 + r/100)
+  - New Value (Decrease) = Old × (1 − r/100)
+  - % Change = (Change / Original) × 100
+  - Successive change = a + b + (ab/100)
+conditions_of_use: |
+  - Percentage rate assumed constant
+category_tags:
+  - percentage
+  - growth
+  - depreciation
+
+### topic: "Profit and Loss"
+subcategory: "Formulas"
+source: "IndiaBix"
+when_to_use: "To evaluate profit, loss, selling price, cost price, and discount."
+formula: |
+  - Profit = SP − CP
+  - Loss = CP − SP
+  - Profit % = (Profit / CP) × 100
+  - Loss % = (Loss / CP) × 100
+  - SP = CP × (1 + Profit%/100)
+  - CP = SP / (1 + Profit%/100)
+  - Discount = MP − SP
+  - Discount % = (Discount / MP) × 100
+  - SP after discount = MP × (1 − Discount%/100)
+conditions_of_use: |
+  - Profit and loss calculated on cost price
+category_tags:
+  - profit
+  - loss
+  - discount
+
+### topic: "Ratio and Proportion"
+subcategory: "Core Concepts"
+source: "IndiaBix"
+when_to_use: "To compare quantities and divide values proportionally."
+formula: |
+  - a:b = a/b
+  - a/b = c/d ⇒ ad = bc
+  - Mean proportional = √(ab)
+  - Direct proportion → y = kx
+  - Inverse proportion → y = k/x
+  - a:b = c:d ⇒ ad = bc
+  - a/b = c/d ⇒ (a+b)/(a−b) = (c+d)/(c−d)
+conditions_of_use: |
+  - Quantities must be comparable
+category_tags:
+  - ratio
+  - proportion
+
+### topic: "Interest"
+subcategory: "SI and CI"
+source: "IndiaBix"
+when_to_use: "To calculate interest and final amount."
+formula: |
+  - SI = (P×R×T)/100
+  - A (SI) = P + SI
+  - A (CI) = P(1+R/100)^T
+  - CI = A − P
+  - Half-yearly CI → A=P(1+R/200)^(2T)
+  - Quarterly CI → A=P(1+R/400)^(4T)
+conditions_of_use: |
+  - Rate remains constant
+category_tags:
+  - interest
+  - finance
+
+### topic: "Time Speed Distance"
+subcategory: "Motion"
+source: "IndiaBix"
+when_to_use: "To solve motion, trains, boats, and relative speed problems."
+formula: |
+  - Speed = Distance / Time
+  - Time = Distance / Speed
+  - Distance = Speed × Time
+  - Relative speed = Sum or Difference of speeds
+  - Train crossing time = Total length / Speed
+  - Boat upstream = b − s
+  - Boat downstream = b + s
+  - 1 km/hr = 5/18 m/s
+  - 1 m/s = 18/5 km/hr
+  - Average speed (equal distance) = 2xy/(x+y)
+
+conditions_of_use: |
+  - Uniform speed assumed
+  - Convert km/h → m/s using ×5/18
+category_tags:
+  - speed
+  - distance
+  - trains
+  - boats
+
+### topic: "Time and Work"
+subcategory: "Pipes and Cisterns"
+source: "IndiaBix"
+when_to_use: "To calculate filling and emptying rates."
+formula: |
+  - Work rate = 1 / Time
+  - Combined rate = 1/a + 1/b
+  - Time = 1 / Combined rate
+  - Emptying pipe rate = −1/t
+  - Fill + Empty = 1/a − 1/b
+conditions_of_use: |
+  - Tank capacity assumed = 1 unit
+category_tags:
+  - time-work
+  - pipes
+
+### topic: "Average"
+subcategory: "Formulas"
+source: "IndiaBix"
+when_to_use: "To find central tendency of values."
+formula: |
+  - Average = Sum / n
+  - Weighted average = Σ(xw)/Σw
+  - Average speed (equal distance) = 2ab/(a+b)
+  - Harmonic mean = n / Σ(1/x)
+conditions_of_use: |
+  - Values must be numeric
+category_tags:
+  - average
+  - mean
+
+### topic: "Mixture and Alligation"
+subcategory: "Pricing"
+source: "IndiaBix"
+when_to_use: "To mix quantities with different prices or concentrations."
+formula: |
+  - Mean = (C1W1 + C2W2)/(W1+W2)
+  - Ratio = (C2−M):(M−C1)
+conditions_of_use: |
+  - Prices or concentrations must differ
+category_tags:
+  - mixture
+  - alligation
+
+### topic: "Geometry"
+subcategory: "Mensuration"
+source: "IndiaBix"
+when_to_use: "To calculate area, perimeter, and angles."
+formula: |
+  - Rectangle perimeter = 2(l+b)
+  - Rectangle area = l×b
+  - Square area = a²
+  - Triangle area = ½bh
+  - Circle area = πr²
+  - Circle circumference = 2πr
+  - Parallelogram area = b×h
+  - Rhombus area = ½ d₁d₂
+  - Trapezium area = ½ (sum of parallel sides) × height
+
+conditions_of_use: |
+  - Units must be consistent
+category_tags:
+  - geometry
+  - mensuration
+
+### topic: "Trigonometry"
+subcategory: "Identities"
+source: "IndiaBix"
+when_to_use: "To solve angle, height, and distance problems."
+formula: |
+  - sinθ = p/h
+  - cosθ = b/h
+  - tanθ = p/b
+  - sin²θ + cos²θ = 1
+  - 1 + tan²θ = sec²θ
+  - sin(A±B)=sinAcosB±cosAsinB
+conditions_of_use: |
+  - Right-angled triangle unless stated
+category_tags:
+  - trigonometry
+  - heights-distances
+
+### topic: "Algebra"
+subcategory: "Basic Series & Average"
+formula: |
+  - Sum of first n natural numbers = n(n+1)/2
+  - Sum of squares of first n natural numbers = n(n+1)(2n+1)/6
+  - Sum of cubes of first n natural numbers = [n(n+1)/2]²
+  - Sum of first n odd numbers = n²
+  - Average = (Sum of items) / (Number of items)
+
+### topic: "Algebra"
+subcategory: "Arithmetic Progression"
+formula: |
+  - nth term: tₙ = a + (n−1)d
+  - Sum of first n terms: Sₙ = n/2 [2a + (n−1)d]
+  - Sum using first & last term: Sₙ = n/2 (first term + last term)
+
+### topic: "Algebra"
+subcategory: "Geometric Progression"
+formula: |
+  - nth term: tₙ = a rⁿ⁻¹
+  - Sum of first n terms: Sₙ = a(1 − rⁿ)/(1 − r)
+
+### topic: "Combinatorics"
+subcategory: "Permutations and Combinations"
+formula: |
+  - nPr = n! / (n−r)!
+  - nPn = n!
+  - nP1 = n
+  - nCr = n! / [r!(n−r)!]
+  - nC1 = n
+  - nC0 = nCn = 1
+  - nCr = nC(n−r)
+  - nCr = nPr / r!
+  - Number of diagonals in n-sided polygon = nC2 − n
+
+### topic: "Time and Work"
+subcategory: "Work Rate"
+formula: |
+  - One day’s work = 1/Total days
+  - Combined work rate = Sum of individual work rates
+  - Efficiency ratio = Ratio of work done
+
+### topic: "Time Speed Distance"
+subcategory: "Trains"
+formula: |
+  - Time = Length / Speed
+  - Crossing object → Distance = Train length
+  - Crossing train → Distance = Sum of lengths
+  - Relative speed (same direction) = u − v
+  - Relative speed (opposite direction) = u + v
+
+### topic: "Logarithms"
+subcategory: "Laws"
+formula: |
+  - logₐx = m ⇔ aᵐ = x
+  - logₐx + logₐy = logₐ(xy)
+  - logₐx − logₐy = logₐ(x/y)
+  - logₐ(xᵖ) = p logₐx
+  - logₐx = log_bx / log_ba
+
+### topic: "Logarithms"
+subcategory: "Laws & Properties"
+source: "Quant Short Tricks PDF"
+formula: |
+  - a^m × a^n = a^(m+n)
+  - a^m / a^n = a^(m−n)
+  - (a^m)^n = a^(mn)
+  - (ab)^m = a^m b^m
+  - (a/b)^m = a^m / b^m
+  - a^(−m) = 1 / a^m
+  - logₐ(xy) = logₐx + logₐy
+  - logₐ(x/y) = logₐx − logₐy
+  - logₐ(x^p) = p logₐx
+  - logₐx = log_bx / log_ba
+  - logₐx = 1 / log_xa
+  - If a > 1 and x > y ⇒ logₐx > logₐy
+  - If 0 < a < 1 and x > y ⇒ logₐx < logₐy
+
+### topic: "Mensuration"
+subcategory: "3D Geometry"
+formula: |
+  - Cube volume = a³
+  - Cube surface area = 6a²
+  - Cuboid volume = lbh
+  - Cylinder volume = πr²h
+  - Cone volume = ⅓πr²h
+  - Sphere volume = ⁴⁄₃πr³
+  - Hemisphere volume = ²⁄₃πr³
+  - Prism volume = Base area × height
+
+### topic: "Combinatorics"
+subcategory: "Advanced Counting"
+source: "Quant Short Tricks PDF"
+formula: |
+  - Σ(k=0→n) nCk = 2^n
+  - Arrangements with repetition = n! / (a! b! c!)
+  - Circular permutations = (n−1)!
+  - Circular permutations (necklace/bracelet) = (n−1)! / 2
+  - Derangements: Dₙ = n! (1/0! − 1/1! + 1/2! − 1/3! + … ± 1/n!)
+  - Positive integer solutions of x₁+…+xₙ = s → (s−1)C(n−1)
+  - Non-negative integer solutions of x₁+…+xₙ = s → (n+s−1)C(n−1)
+
+### topic: "Progressions"
+subcategory: "Advanced Series"
+source: "Quant Short Tricks PDF"
+formula: |
+  - Number of terms in A.P = (Last − First)/d + 1
+  - Infinite GP sum (|r|<1): S∞ = a / (1−r)
+  - Arithmetic Mean (two numbers) = (a+b)/2
+  - Geometric Mean (two numbers) = √(ab)
+  - Harmonic Mean (two numbers) = 2ab/(a+b)
+  - Relationship: AM ≥ GM ≥ HM
+  - GM² = AM × HM
+
+### topic: "Set Theory"
+subcategory: "Venn Diagrams"
+source: "Quant Short Tricks PDF"
+formula: |
+  - n(A∪B) = n(A)+n(B)−n(A∩B)
+  - n(A∪B∪C) = n(A)+n(B)+n(C)
+               −n(A∩B)−n(B∩C)−n(C∩A)
+               +n(A∩B∩C)
+  - n(A−B) = n(A) − n(A∩B)
+  - Number of subsets of n elements = 2^n
+
+### topic: "Mixtures and Alligation"
+subcategory: "Replacement & Weighted Mean"
+source: "Quant Short Tricks PDF"
+formula: |
+  - Mean = (Q₁M₁ + Q₂M₂) / (Q₁ + Q₂)
+  - Quantity ratio = (M₂ − Mean) : (Mean − M₁)
+  - Repeated replacement:
+    Remaining quantity after n operations = Initial × (1 − b/a)^n
+
+### topic: "Time Speed Distance"
+subcategory: "Advanced Motion"
+source: "Quant Short Tricks PDF"
+formula: |
+  - Average speed (equal time) = (x+y)/2
+  - Circular track first meeting (opposite) = Track length / (u+v)
+  - Circular track first meeting (same direction) = Track length / |u−v|
+  - If after meeting times are x and y:
+    Meeting time = √(xy)
+  - Speed ratio after crossing = Time₂ / Time₁
+
+### topic: "Number System"
+subcategory: "Advanced Properties"
+source: "Quant Short Tricks PDF"
+formula: |
+  - Euler Totient: φ(N)=N∏(1−1/p)
+  - Highest power of n in m! = ⌊m/n⌋+⌊m/n²⌋+⌊m/n³⌋…
+  - Number of factors: (p+1)(q+1)(r+1)
+  - Number of digits in a^b = ⌊b log₁₀a⌋ + 1
+  - Fermat: a^(p−1) ≡ 1 (mod p)
+  - Wilson: (p−1)! ≡ −1 (mod p)
+
+### topic: "Geometry"
+subcategory: "Advanced Geometry"
+source: "Quant Short Tricks PDF"
+formula: |
+  - Distance between points = √[(x₂−x₁)²+(y₂−y₁)²]
+  - Area of triangle = (1/2)ab sinθ
+  - Area using inradius: A = r×s
+  - Area using circumradius: A = abc / 4R
+  - Cyclic quadrilateral area = √[(s−a)(s−b)(s−c)(s−d)]
+  - Number of diagonals in regular polygon = n(n−3)/2
+  - Each exterior angle (regular polygon) = 360/n
+
+### topic: "Number System"
+subcategory: "Basic Properties & Divisibility"
+source: "BYJU'S / IndiaBix"
+when_to_use: "Operations, factorization, divisibility checks and digit/count questions."
+formula: |
+  - Sum of first n natural numbers = n(n+1)/2
+  - Sum of squares of first n natural numbers = n(n+1)(2n+1)/6
+  - Sum of cubes of first n natural numbers = [n(n+1)/2]²
+  - Sum of first n odd numbers = n²
+  - Number of subsets of n elements = 2^n
+  - Number of digits in a^b = ⌊b·log10(a)⌋ + 1
+  - Highest power of p in m! = ⌊m/p⌋ + ⌊m/p²⌋ + ⌊m/p³⌋ + …
+  - Euler totient: φ(N) = N ∏ (1 − 1/p) over prime p | N
+  - HCF × LCM = Product of two numbers
+  - Divisibility rules (base 10):
+    - ÷2 → last digit even
+    - ÷3 → sum of digits divisible by 3
+    - ÷4 → last two digits divisible by 4
+    - ÷5 → last digit 0 or 5
+    - ÷8 → last three digits divisible by 8
+    - ÷9 → sum of digits divisible by 9
+    - ÷10 → last digit 0
+    - ÷11 → |(sum odd-place digits − sum even-place digits)| divisible by 11
+conditions_of_use: |
+  - Integers (base 10) unless stated otherwise.
+  - Use floor (⌊ ⌋) for digit-count formulas.
+category_tags:
+  - number-system
+  - divisibility
+  - digit-questions
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+  source_urls: ["BYJU'S","IndiaBix"]
+
+### topic: "Algebra"
+subcategory: "Identities & Series"
+source: "BYJU'S"
+when_to_use: "Algebraic simplification, expansions, factorization, sequences and sums."
+formula: |
+  - (a + b)² = a² + 2ab + b²
+  - (a − b)² = a² − 2ab + b²
+  - a² − b² = (a + b)(a − b)
+  - (a + b)(a − b) = a² − b²
+  - a³ + b³ = (a + b)(a² − ab + b²)
+  - a³ − b³ = (a − b)(a² + ab + b²)
+  - Sum of first n natural numbers = n(n+1)/2
+  - Sum of first n even numbers = n(n+1)
+  - Sum of first n odd numbers = n²
+conditions_of_use: |
+  - Standard algebraic domains (real numbers) apply.
+category_tags:
+  - algebra
+  - identities
+  - series
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+  source_urls: ["BYJU'S"]
+
+### topic: "Percentages"
+subcategory: "Basics & Successive Change"
+source: "BYJU'S"
+when_to_use: "Percent increase/decrease, successive changes, conversion between % and fraction."
+formula: |
+  - x% = x / 100
+  - New value after increase R% = Old × (1 + R/100)
+  - New value after decrease R% = Old × (1 − R/100)
+  - Successive % changes: net% = a + b + (a·b)/100
+conditions_of_use: |
+  - Percent rates assumed small/constant per operation; successive formula valid for sequential percentage changes.
+category_tags:
+  - percentage
+  - growth
+  - depreciation
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Averages"
+subcategory: "Mean Types"
+source: "BYJU'S / general aptitude pages"
+when_to_use: "Central tendency and rate problems."
+formula: |
+  - Arithmetic mean = (Sum of values) / n
+  - Weighted mean = Σ(xᵢ·wᵢ) / Σwᵢ
+  - Harmonic mean (n values) = n / Σ(1/xᵢ)
+  - For two speeds (equal distance): Average speed = 2xy/(x + y)
+  - For equal-time speeds: Average speed = (x + y)/2
+conditions_of_use: |
+  - Use harmonic mean for rates when distances equal.
+category_tags:
+  - averages
+  - mean
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Profit and Loss"
+subcategory: "Basic Formulas"
+source: "BYJU'S"
+when_to_use: "Buying/selling problems, discount and markup calculations."
+formula: |
+  - Profit = SP − CP
+  - Loss = CP − SP
+  - Profit% = (Profit / CP) × 100
+  - Loss% = (Loss / CP) × 100
+  - SP = CP × (1 + Profit%/100)
+  - SP = CP × (1 − Loss%/100)
+  - Discount = MP − SP
+  - Discount% = (Discount / MP) × 100
+conditions_of_use: |
+  - Percentages computed w.r.t. cost price unless otherwise specified.
+category_tags:
+  - profit-loss
+  - discount
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Simple & Compound Interest"
+subcategory: "Interest"
+source: "BYJU'S / general aptitude pages"
+when_to_use: "Interest calculations for loans, investments and growth."
+formula: |
+  - Simple Interest (SI) = (P × R × T) / 100
+  - Amount (SI) = P + SI
+  - Compound Amount A = P (1 + R/100)^T
+  - Compound Interest CI = P (1 + R/100)^T − P
+  - Half-yearly compounding: A = P (1 + R/200)^(2T)
+  - Quarterly compounding: A = P (1 + R/400)^(4T)
+conditions_of_use: |
+  - R expressed per annum; adjust compounding frequency accordingly.
+category_tags:
+  - interest
+  - finance
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Ratio & Proportion"
+subcategory: "Basics"
+source: "BYJU'S"
+when_to_use: "Direct/inverse variation and splitting quantities in ratios."
+formula: |
+  - Ratio a:b = a/b
+  - a/b = c/d ⇒ ad = bc
+  - Direct proportion: y = kx
+  - Inverse proportion: y = k/x
+  - Mean proportional between a and b = √(ab)
+conditions_of_use: |
+  - Quantities must be comparable and non-zero for inverse proportion.
+category_tags:
+  - ratio
+  - proportion
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Time, Speed & Distance"
+subcategory: "Motion"
+source: "IndiaBix"
+when_to_use: "Travel time, relative speed, circular track and average speed problems."
+formula: |
+  - Distance = Speed × Time
+  - Speed = Distance / Time
+  - Time = Distance / Speed
+  - km/hr → m/s: multiply by 5/18
+  - m/s → km/hr: multiply by 18/5
+  - Average speed (equal distance) = 2xy/(x+y)
+  - Relative speed (same direction) = |u − v|
+  - Relative speed (opposite directions) = u + v
+  - Time to meet on circular track (opposite) = L / (u+v)
+  - Time to meet on circular track (same direction) = L / |u−v|
+conditions_of_use: |
+  - Use consistent units for speed and distance.
+category_tags:
+  - distance
+  - speed
+  - relative-speed
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Time & Work (Pipes & Cisterns)"
+subcategory: "Work Rate"
+source: "general aptitude references"
+when_to_use: "Filling/emptying and manpower-work problems."
+formula: |
+  - Work = Rate × Time
+  - One unit work done by A in 1 day = 1 / (days taken by A)
+  - Combined rate (A & B) = 1/x + 1/y
+  - Time together = 1 / (combined rate)
+  - Filling rate (pipe) = 1/x; emptying rate = 1/y; net = 1/x − 1/y
+conditions_of_use: |
+  - Treat full tank as 1 unit; rates constant over time.
+category_tags:
+  - time-work
+  - pipes
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Progressions & Series"
+subcategory: "AP, GP, HP"
+source: "BYJU'S"
+when_to_use: "Sequence/series sums, n-th term and mean-related problems."
+formula: |
+  - AP nth term: Tₙ = a + (n−1)d
+  - AP sum: Sₙ = n/2 [2a + (n−1)d] = n/2 (first + last)
+  - GP nth term: Tₙ = a rⁿ⁻¹
+  - GP sum: Sₙ = a(1 − rⁿ)/(1 − r)
+  - Infinite GP (|r|<1): S∞ = a/(1−r)
+  - HM (n values) = n / Σ(1/xᵢ)
+conditions_of_use: |
+  - GP infinite sum valid only when |r| < 1.
+category_tags:
+  - sequences
+  - series
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Permutations & Combinations"
+subcategory: "Counting"
+source: "BYJU'S / IndiaBix"
+when_to_use: "Arrangement, selection and partitioning problems."
+formula: |
+  - n! = n(n−1)(n−2)…1 ; 0! = 1
+  - nPr = n!/(n−r)!
+  - nCr = n!/[r!(n−r)!]
+  - Σ₀ⁿ nCk = 2ⁿ
+  - Circular permutations (distinct seating) = (n−1)!
+  - Arrangements with repetition: n!/(a! b! c!)
+  - Derangements: Dₙ = n!(1/0! − 1/1! + 1/2! − … ± 1/n!)
+  - Positive integer solutions to x₁+…+xₙ=s = (s−1)C(n−1)
+  - Non-negative solutions to x₁+…+xₙ=s = (n+s−1)C(n−1)
+conditions_of_use: |
+  - Choose formula based on whether order matters and whether repetition allowed.
+category_tags:
+  - permutations
+  - combinations
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Logarithms & Indices"
+subcategory: "Laws"
+source: "BYJU'S"
+when_to_use: "Exponent simplification and log transformations."
+formula: |
+  - aᵐ · aⁿ = a^(m+n)
+  - aᵐ / aⁿ = a^(m−n)
+  - (aᵐ)ⁿ = a^(mn)
+  - (ab)ᵐ = aᵐ bᵐ
+  - a^(−m) = 1 / aᵐ
+  - logₐ(xy) = logₐx + logₐy
+  - logₐ(x/y) = logₐx − logₐy
+  - logₐ(xᵖ) = p·logₐx
+  - logₐx = log_bx / log_ba
+conditions_of_use: |
+  - Arguments must be positive for real-valued logs.
+category_tags:
+  - logs
+  - exponents
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+### topic: "Geometry & Mensuration"
+subcategory: "Plane & Solid Geometry"
+source: "Testbook"
+when_to_use: "Area, perimeter, volume, surface area and coordinate geometry problems."
+formula: |
+  - Triangle area = 1/2 × base × height
+  - Triangle area (Heron) = √[s(s−a)(s−b)(s−c)] where s = (a+b+c)/2
+  - Area (circle) = πr²
+  - Circumference = 2πr
+  - Rectangle area = l×b
+  - Square area = a²
+  - Parallelogram area = b×h
+  - Rhombus area = 1/2 × d₁ × d₂
+  - Cube volume = a³ ; Surface area = 6a²
+  - Cuboid volume = lbh ; Surface area = 2(lb+bh+lh)
+  - Cylinder volume = πr²h ; Curved surface area = 2πrh
+  - Cone volume = (1/3)πr²h ; CSA = πrl
+  - Sphere volume = 4/3 πr³ ; Surface area = 4πr²
+  - Distance between (x₁,y₁) and (x₂,y₂) = √[(x₂−x₁)² + (y₂−y₁)²]
+conditions_of_use: |
+  - Use consistent units; π as required.
+category_tags:
+  - geometry
+  - mensuration
+metadata:
+  created_by: "assistant"
+  created_on: "2025-12-21"
+
+

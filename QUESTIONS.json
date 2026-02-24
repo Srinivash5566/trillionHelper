@@ -1,0 +1,262 @@
+[
+  {
+    "question": "Which utility performs physical backups in MySQL Enterprise Edition?",
+    "options": ["mysqladmin", "mysqldump", "mysqlcopy", "mysqlbackup"]
+  },
+  {
+    "question": "What is the primary purpose of an index?",
+    "options": [
+      "Reduce storage",
+      "Encrypt data",
+      "Normalize tables",
+      "Improve query performance"
+    ]
+  },
+  {
+    "question": "Which command analyzes query execution plan?",
+    "options": ["DESCRIBE", "EXPLAIN", "ANALYZE", "TRACE"]
+  },
+  {
+    "question": "Which improves SELECT performance the most?",
+    "options": [
+      "Increasing table size",
+      "Using SELECT *",
+      "Adding proper indexes",
+      "Removing indexes"
+    ]
+  },
+  {
+    "question": "Which command optimizes a table physically?",
+    "options": [
+      "ANALYZE TABLE",
+      "REPAIR TABLE",
+      "CHECK TABLE",
+      "OPTIMIZE TABLE"
+    ]
+  },
+  {
+    "question": "Which log helps identify slow queries?",
+    "options": ["Binary log", "Error log", "Slow query log", "General log"]
+  },
+  {
+    "question": "Which ACID property ensures that all operations in a transaction are completed or none are?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"]
+  },
+  {
+    "question": "How do you back up all databases at once?",
+    "options": [
+      "mysqldump --database all",
+      "mysqldump --all-databases",
+      "mysqldump --all-db",
+      "mysqldump *"
+    ]
+  },
+  {
+    "question": "Which command checks database consistency?",
+    "options": ["mysqlverify", "mysqladmin", "mysqldump", "mysqlcheck"]
+  },
+  {
+    "question": "Which backup type allows recovery to a specific time?",
+    "options": [
+      "Full backup",
+      "Logical backup",
+      "Incremental backup",
+      "Point-in-time recovery"
+    ]
+  },
+  {
+    "question": "Which command backs up only the table structure without data?",
+    "options": ["--no-data", "--schema", "--metadata", "--structure-only"]
+  },
+  {
+    "question": "Which command shows binary log files?",
+    "options": [
+      "SHOW BINARY LOGS;",
+      "SHOW LOGS;",
+      "SHOW BINLOGS;",
+      "SHOW FILES;"
+    ]
+  },
+  {
+    "question": "Which join is fastest generally?",
+    "options": ["LEFT JOIN", "RIGHT JOIN", "FULL JOIN", "INNER JOIN"]
+  },
+  {
+    "question": "Physical backups are usually:",
+    "options": [
+      "Slower and larger",
+      "Text-based",
+      "Faster and file-based",
+      "Platform-independent"
+    ]
+  },
+  {
+    "question": "Which option ensures consistent backup for InnoDB tables?",
+    "options": [
+      "--lock-tables",
+      "--no-lock",
+      "--single-transaction",
+      "--flush-logs"
+    ]
+  },
+  {
+    "question": "Which index improves GROUP BY performance?",
+    "options": ["Invisible", "Hash", "Unique", "Composite"]
+  },
+  {
+    "question": "Which command creates an index?",
+    "options": [
+      "INDEX CREATE table(col);",
+      "MAKE INDEX table(col);",
+      "ADD INDEX table(col);",
+      "CREATE INDEX idx ON table(col);"
+    ]
+  },
+  {
+    "question": "Binary logs are mainly used for:",
+    "options": [
+      "Table locking",
+      "Indexing",
+      "Replication and point-in-time recovery",
+      "Query optimization"
+    ]
+  },
+  {
+    "question": "Which file extension is commonly used for MySQL logical backups?",
+    "options": ["dump", "db", "sql", "bak"]
+  },
+  {
+    "question": "Which clause reduces number of rows returned?",
+    "options": ["JOIN", "ORDER BY", "GROUP BY", "WHERE"]
+  },
+  {
+    "question": "Which storage engine is best for performance & transactions?",
+    "options": ["InnoDB", "MEMORY", "CSV", "MyISAM"]
+  },
+  {
+    "question": "Which index is best for searching text content?",
+    "options": ["Full-text", "Hash", "Clustered", "B-Tree"]
+  },
+  {
+    "question": "Which command is used to take a logical backup of a MySQL database?",
+    "options": ["mysqlcopy", "mysqlbackup", "mysqlsave", "mysqldump"]
+  },
+  {
+    "question": "Composite index means:",
+    "options": [
+      "Index on multiple columns",
+      "Index on joins",
+      "Index on views",
+      "Index on multiple tables"
+    ]
+  },
+  {
+    "question": "How many clustered indexes can a table have?",
+    "options": ["Depends on columns", "Two", "One", "Unlimited"]
+  },
+  {
+    "question": "Which variable controls InnoDB buffer pool size?",
+    "options": [
+      "innodb_buffer_pool_size",
+      "buffer_size",
+      "innodb_pool",
+      "cache_size"
+    ]
+  },
+  {
+    "question": "Indexes increase:",
+    "options": [
+      "Update speed",
+      "Storage and write overhead",
+      "Network latency",
+      "Insert speed"
+    ]
+  },
+  {
+    "question": "Indexes are NOT used when:",
+    "options": [
+      "Using WHERE clause",
+      "Using functions on indexed columns",
+      "Using JOIN",
+      "Using ORDER BY"
+    ]
+  },
+  {
+    "question": "Which index is created automatically?",
+    "options": [
+      "Primary key index",
+      "Composite index",
+      "Unique index",
+      "Full-text index"
+    ]
+  },
+  {
+    "question": "Which statement removes an index?",
+    "options": ["REMOVE INDEX", "ERASE INDEX", "DROP INDEX", "DELETE INDEX"]
+  },
+  {
+    "question": "What causes slow queries most often?",
+    "options": [
+      "Full table scans",
+      "Cached queries",
+      "Proper indexing",
+      "Small tables"
+    ]
+  },
+  {
+    "question": "Which index allows duplicate values?",
+    "options": ["NON-UNIQUE", "FULLTEXT", "UNIQUE", "PRIMARY"]
+  },
+  {
+    "question": "What does query cache store?",
+    "options": ["Logs", "Indexes", "Query results", "Tables"]
+  },
+  {
+    "question": "What does --flush-logs do in backup?",
+    "options": [
+      "Deletes logs",
+      "Disables logs",
+      "Compresses logs",
+      "Rotates logs before backup"
+    ]
+  },
+  {
+    "question": "Which command shows indexes of a table?",
+    "options": ["SHOW INDEXES", "SHOW INDEX", "All of the above", "SHOW KEYS"]
+  },
+  {
+    "question": "Which index is best for equality comparison?",
+    "options": ["B-Tree", "Clustered", "Hash", "Full-text"]
+  },
+  {
+    "question": "Which command restores a database from a .sql backup file?",
+    "options": [
+      "mysqldump < backup.sql",
+      "mysql restore backup.sql",
+      "mysql < backup.sql",
+      "restore mysql backup.sql"
+    ]
+  },
+  {
+    "question": "What is a clustered index?",
+    "options": [
+      "Supports full-text search",
+      "Separate from data",
+      "Stores table data with index",
+      "Uses hash"
+    ]
+  },
+  {
+    "question": "Which engine supports FULLTEXT indexes?",
+    "options": [
+      "Both InnoDB and MyISAM",
+      "MEMORY",
+      "MyISAM only",
+      "InnoDB only"
+    ]
+  },
+  {
+    "question": "Which index type stores data in sorted order?",
+    "options": ["Hash", "Heap", "Bitmap", "B-Tree"]
+  }
+]

@@ -1,0 +1,46 @@
+# ----------------------
+# Python cache files
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------
+# Virtual environment
+# ----------------------
+env/
+venv/
+.venv/
+
+# ----------------------
+# Environment variables / secrets
+# ----------------------
+.env
+API_KEY.py
+
+# ----------------------
+# Vector database / embeddings
+# ----------------------
+chroma_stores/
+*.sqlite3
+
+# ----------------------
+# Logs & temp files
+# ----------------------
+*.log
+*.tmp
+*.swp
+
+# ----------------------
+# Build / packaging
+# ----------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+.DS_Store
